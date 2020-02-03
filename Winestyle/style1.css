@@ -44,5 +44,10 @@
                 font-size: 24px;
                 margin: 160px; 
                 line-height: 1.1em;
+            }
+            .carousel-indicators li {
+                width: 15px;
+                height: 15px;
+                border-radius: 50%
             } 
         }
