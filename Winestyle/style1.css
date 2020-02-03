@@ -1,0 +1,48 @@
+@media screen and (min-width: 1200px) {
+            body {
+                margin: 0;            
+            }
+            .no-gutters {
+                margin-right: 0;
+                margin-left: 0;
+            }
+            .navigation {
+                height: 40px;
+                background: black;
+                font-size: 22px;
+                font-family: 'Roboto', sans-serif;
+                margin-top: -10px;
+            }
+            .connection {
+                background: rgb(150, 77, 77, .5);
+            } 
+            .authorization {
+                color: silver;
+            } 
+            .info {
+                margin-top: 20px;
+            }
+            .assistance {
+                margin-top: 50px;
+            }
+            .assistance .content {
+                position: absolute;
+                bottom: 0;
+                background: rgba(0, 0, 0, .2);
+                color: #f1f1f1;
+                width: 100%;
+                height: 100%;
+            }
+            .linkhead {
+                color: white;
+            }
+            a:hover {
+                color: silver;
+            }
+            .txt {
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                margin: 160px; 
+                line-height: 1.1em;
+            } 
+        }
