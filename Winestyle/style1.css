@@ -1,53 +1,377 @@
-@media screen and (min-width: 1200px) {
             body {
                 margin: 0;            
             }
-            .no-gutters {
-                margin-right: 0;
-                margin-left: 0;
-            }
-            .navigation {
-                height: 40px;
-                background: black;
-                font-size: 22px;
+            p, .navigation {
                 font-family: 'Roboto', sans-serif;
-                margin-top: -10px;
             }
-            .connection {
-                background: rgb(150, 77, 77, .5);
-            } 
-            .authorization {
-                color: silver;
-            } 
-            .info {
-                margin-top: 20px;
+            .no-gutters {
+                padding-left: 0;
+                padding-right: 0;
             }
-            .assistance {
-                margin-top: 50px;
-            }
-            .assistance .content {
-                position: absolute;
-                bottom: 0;
-                background: rgba(0, 0, 0, .2);
-                color: #f1f1f1;
-                width: 100%;
-                height: 100%;
-            }
-            .linkhead {
-                color: white;
+            .logo {
+                font-family: 'Roboto', sans-serif;
+                height: 45px;
+                margin-left: 40px;
+                color: rgb(105, 0, 0);
             }
             a:hover {
                 color: silver;
             }
-            .txt {
-                font-family: 'Roboto', sans-serif;
-                font-size: 24px;
-                margin: 160px; 
-                line-height: 1.1em;
+            h1:hover {
+                color: rgb(105, 0, 0, .8);
             }
+            .nav-link {
+                color:  rgb(105, 0, 0);;
+            }
+            li {
+                list-style-type: none;
+                display: inline;
+                margin-left: 20px;
+            }
+            ul {
+                margin-left: ;
+            }
+            .footer {
+                margin-top: 40px;
+            } 
+            .assistance {
+                margin-top: 50px;
+            }
+        @media screen and (min-width: 1200px) {
             .carousel-indicators li {
-                width: 15px;
-                height: 15px;
-                border-radius: 50%
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                margin: 10px;
+            }
+            .carousel-control-next-icon {
+                background-image: url(https://image.flaticon.com/icons/svg/339/339918.svg);
+                margin-right: -60px;
+            }
+            .carousel-control-prev-icon {
+                background-image: url(https://image.flaticon.com/icons/svg/339/339876.svg);
+                margin-left: -60px;
+            }
+            .txt {
+                font-size: 22px; 
+                line-height: 1.1em;
+                margin-left: 100px;
+                margin-top: 30px;
+                margin-right: 50px;
+            }
+            
+            .book {
+                margin-top: 20px;
+                margin-left: 100px;
+            }
+            
+            #aboutus {
+                margin-left: 100px;   
+            }
+            .experience {    
+                color: rgb(105, 0, 0);   
+                font-size: 34px;
+                margin-left: 100px;
+                margin-right: 150px;
+                line-height: 1em;
+            }
+            
+            .assistance .content {
+                position: absolute;
+                bottom: 0;
+                background: rgba(0, 0, 0, .4);
+                color: #f1f1f1;
+                width: 100%;
+                height: 100%;
+            }
+            .txt2 {
+                margin-top: -10px;
+            }
+            .book2 {
+                position: relative;
+                left: 50%;
+                transform: translate(-50%, 0);
+                margin-top:;
+            }
+            .foryou {
+                font-size: 28px; 
+                margin-top: 30px;
+            } 
+        }
+        @media (min-width: 992px) and (max-width: 1199.99px) {
+            .carousel-indicators li {
+                width: 9px;
+                height: 9px;
+                border-radius: 50%;
+                margin: 9px;
+            }
+            .carousel-control-next-icon {
+                background-image: url(https://image.flaticon.com/icons/svg/339/339918.svg);
+                margin-right: -50px;
+            }
+            .carousel-control-prev-icon {
+                background-image: url(https://image.flaticon.com/icons/svg/339/339876.svg);
+                margin-left: -50px;
+            }
+            .txt {
+                font-size: 18px; 
+                line-height: 1em;
+                margin-left: 80px;
+                margin-top: 20px;
+                margin-right: 45px;
+            }
+            
+            .book {
+                margin-left: 80px;
+            }
+            
+            #aboutus {
+                margin-left: 80px;   
+            }
+            .experience {    
+                color: rgb(105, 0, 0);   
+                font-size: 30px;
+                margin-left: 80px;
+                margin-right: 130px;
+                line-height: 0.9em;
+            }
+            
+            .assistance .content {
+                position: absolute;
+                bottom: 0;
+                background: rgba(0, 0, 0, .4);
+                color: #f1f1f1;
+                width: 100%;
+                height: 100%;
+            }
+            .txt2 {
+                margin-top: -10px;
+            }
+            .book2 {
+                position: relative;
+                left: 50%;
+                transform: translate(-50%, 0);
+                margin-top:;
+            }
+            .foryou {
+                font-size: 28px; 
+                margin-top: 10px;
+            } 
+        }
+        @media (min-width: 768px) and (max-width: 991.99px) {
+            .carousel-indicators li {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                margin: -10px 8px;
+            }
+            .carousel-control-next-icon {
+                background-image: url(https://image.flaticon.com/icons/svg/339/339918.svg);
+                margin-right: -40px;
+            }
+            .carousel-control-prev-icon {
+                background-image: url(https://image.flaticon.com/icons/svg/339/339876.svg);
+                margin-left: -40px;
+            }
+            .linkhead {
+                padding: 8px 8px;
+                font-size: 14px;
+                margin-left: -20px;
+
+            }
+            .txt {
+                font-size: 14px; 
+                line-height: 1em;
+                margin-left: 60px;
+                margin-top: 20px;
+                margin-right: 30px;
+            }
+            
+            .book {
+                margin-left: 60px;
+                font-size: 12px;
+            }
+            
+            #aboutus {
+                margin-left: 60px;   
+            }
+            .experience {    
+                color: rgb(105, 0, 0);   
+                font-size: 21px;
+                margin-left: 60px;
+                margin-right: 100px;
+                line-height: 0.9em;
+            }
+            
+            .assistance .content {
+                position: absolute;
+                bottom: 0;
+                background: rgba(0, 0, 0, .4);
+                color: #f1f1f1;
+                width: 100%;
+                height: 100%;
+            }
+            .txt2 {
+                margin-top: -12px;
+                line-height: 0.9em;
+            }
+            .book2 {
+                position: relative;
+                left: 50%;
+                transform: translate(-50%, 0);
+                margin-top:;
+                font-size: 12px;
+            }
+            .foryou {
+                font-size: 20px; 
+                margin-top: 0px;
+            } 
+        }
+        @media (min-width: 576px) and (max-width: 767.99px) {
+            .carousel-indicators li {
+                width: 7px;
+                height: 7px;
+                border-radius: 50%;
+                margin: -10px 7px;
+            }
+                .carousel-control-next-icon {
+                background-image: url(https://image.flaticon.com/icons/svg/339/339918.svg);
+                margin-right: -30px;
+            }
+            .carousel-control-prev-icon {
+                background-image: url(https://image.flaticon.com/icons/svg/339/339876.svg);
+                margin-left: -30px;
+            }
+            .linkhead {
+                padding: 8px 8px;
+                font-size: 12px;
+                margin-left: -25px;
+
+            }
+            .txt {
+                font-size: 12px; 
+                line-height: 1em;
+                margin-left: 15px;
+                margin-top: 20px;
+                margin-right: 10px;
+            }
+            
+            .book {
+                margin-left: 15px;
+                font-size: 10px;
+            }
+            
+            #aboutus {
+                margin-left: 15px;   
+            }
+            .experience {    
+                color: rgb(105, 0, 0);   
+                font-size: 21px;
+                margin-left: 15px;
+                margin-right: 50px;
+                line-height: 0.9em;
+            }
+            
+            .assistance .content {
+                position: absolute;
+                bottom: 0;
+                background: rgba(0, 0, 0, .4);
+                color: #f1f1f1;
+                width: 100%;
+                height: 100%;
+            }
+            .txt2 {
+                margin-top: -16px;
+                margin-left: 40px;
+                margin-right: 40px;
+                line-height: 0.9em;
+
+            }
+            .book2 {
+                position: relative;
+                left: 50%;
+                transform: translate(-50%, 0);
+                margin-top: -16px;
+                font-size: 10px;
+            }
+            .foryou {
+                font-size: 16px; 
+                margin-top: 0px;
+            } 
+        }
+        @media (max-width: 575.99px) { 
+            .carousel-indicators li {
+                display: none;
+            }
+            .carousel-control-next-icon {
+                display: none;
+            }
+            .carousel-control-prev-icon {
+                display: none;
+            }
+            .col-7 {
+                display: none;
+            }
+            .col-5 {
+                max-width: 100%;
+                flex: 100%;
+            }
+            .nav {
+                display: block;
+                font-size: 20px;
+                text-align: center;
+                margin-top: 15px;
+            }
+            .linkhead {
+                margin-top: -40px;
+            }
+            .txt {
+                font-size: 14px; 
+                line-height: 1em;
+                margin-left: 40px;
+                margin-right: 40px;
+                
+                margin-top: 20px;
+                
+            }
+            
+            .book {
+                margin-left: 40px;
+                font-size: 10px;
+            }
+            
+            #aboutus {
+                margin-left: 40px;   
+            }
+            .experience {    
+                color: rgb(105, 0, 0);   
+                font-size: 21px;
+                margin-left: 40px;
+                margin-right: 50px;
+                line-height: 0.9em;
+            }
+            
+            .assistance .content {
+                position: absolute;
+                bottom: 0;
+                background: rgba(0, 0, 0, .4);
+                color: #f1f1f1;
+                width: 100%;
+                height: 100%;
+            }
+            .txt2 {
+                display: none;
+
+            }
+            .book2 {
+                position: relative;
+                left: 50%;
+                transform: translate(-50%, 0);
+                margin-top: -30px;
+                font-size: 8px;
+            }
+            .foryou {
+                font-size: 12px; 
+                margin-top: 0px;
             } 
         }
