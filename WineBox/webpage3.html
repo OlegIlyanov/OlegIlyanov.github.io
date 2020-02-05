@@ -6,38 +6,38 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Page3</title>
     <style>
-        @media (min-width: 1200px) {
             body {
-                margin: 0;
+                margin: 0;            
+            }
+            p, .navigation {
+                font-family: 'Roboto', sans-serif;
             }
             .no-gutters {
-                margin-right: 0;
-                margin-left: 0;
+                padding-left: 0;
+                padding-right: 0;
             }
-            .navigation {
-                height: 40px;
-                background: black;
-                font-size: 22px;
+            .logo {
                 font-family: 'Roboto', sans-serif;
-                margin-top: -10px;
+                height: 45px;
+                margin-left: 40px;
+                color: rgb(105, 0, 0);
             }
+            a:hover {
+                color: silver;
+            }
+            h1:hover {
+                color: rgb(105, 0, 0, .8);
+            }
+            .nav-link {
+                color:  rgb(105, 0, 0);;
+            }
+        @media screen and (min-width: 1200px) {
             .person {
                 margin-top: 11px;
                 margin-right: -15px;
             } 
-            a:hover {
-                color: silver;
-            }
-            .linkhead {
-                color: white;
-            }
-            .logo {
-                height: 45px;
-                background: rgb(105, 0, 0, .9);
-                font-family: 'Roboto', sans-serif;
-                font-size: 22px;
-                padding-top: 5px;
-            }
+
+
             .connection {
                 height: 45px;
                 background: rgb(105, 0, 0, .9);
@@ -49,46 +49,30 @@
     </style>
   </head>
   <body>
-    <div class="container-fluid px-0">
-        <div class="row no-gutters">
-            <div class="col">
-                <ul class="nav navigation justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active linkhead" href="https://vk.com/vinoklub_wine">VK</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link linkhead" href="#">I</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link linkhead" href="#">F</a>
-                    </li>
-                    <svg class="bi bi-person-fill person text-white" width="25px" height="21px" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M5 16s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H5zm5-6a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd">
-                        </path>
-                    </svg>
-                        <li class="nav-item">
-                    <a class="nav-link linkhead" href="#">Мой кабинет</a>
-                    </li>
-                </ul>
-            </div>
-        </div> 
-        <div class="row no-gutters">
-            <div class="col-2 logo text-white text-center">WINE Box
-            </div>
-            <div class="col">
-                <ul class="nav connection justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active linkhead" href="#">Как это работатет</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link linkhead" href="#">Падарочные наборы</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link linkhead" href="#">Обратная связь</a>
-                    </li>
-                </ul>
-            </div>
+    <header>
+        <div class="container-fluid px-0">
+            <div class="row no-gutters">
+                <div class="col logo">
+                    <h1>WINE box</h1>    
+                </div>
+            </div>    
+
+            <ul class="nav justify-content-end navigation">
+                <li class="nav-item">
+                    <a class="nav-link active linkhead" href="webpage2.html" title="Как это работает">Как это работает</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link linkhead" href="#" title="Подарочные наборы">Подарочные наборы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link linkhead" href="#" title="Подарочные наборы">Обратная связь</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link linkhead" href="#" title="Подарочные наборы">Вход</a>
+                </li>
+            </ul>
         </div>
+    </header>
         <div class="row">
             <div class="col-4">
                 <img src="https://d24a8427-3495-43ed-bbd6-1696aef19c18.ws-eu01.gitpod.io/mini-browser/workspace/gitpod/graduate/images/add.png" width="100px" height="100px">

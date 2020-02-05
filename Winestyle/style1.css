@@ -10,9 +10,10 @@
             }
             .logo {
                 font-family: 'Roboto', sans-serif;
-                height: 45px;
-                margin-left: 40px;
+                height: 54px;
+                margin-left: 52px;
                 color: rgb(105, 0, 0);
+                margin-top: -8px;
             }
             a:hover {
                 color: silver;
@@ -32,8 +33,9 @@
                 margin-left: ;
             }
             .footer {
+                margin-left: -60px;
                 margin-top: 40px;
-            } 
+            }  
             .assistance {
                 margin-top: 50px;
             }
@@ -91,7 +93,6 @@
                 position: relative;
                 left: 50%;
                 transform: translate(-50%, 0);
-                margin-top:;
             }
             .foryou {
                 font-size: 28px; 
@@ -246,7 +247,6 @@
                 padding: 8px 8px;
                 font-size: 12px;
                 margin-left: -25px;
-
             }
             .txt {
                 font-size: 12px; 
@@ -300,6 +300,9 @@
             } 
         }
         @media (max-width: 575.99px) { 
+            .logo {
+                top: 35px;
+            }
             .carousel-indicators li {
                 display: none;
             }
@@ -318,28 +321,24 @@
             }
             .nav {
                 display: block;
-                font-size: 20px;
+                font-size: 14px;
                 text-align: center;
                 margin-top: 15px;
             }
             .linkhead {
-                margin-top: -40px;
+                margin-top: -35px;
             }
             .txt {
                 font-size: 14px; 
                 line-height: 1em;
                 margin-left: 40px;
                 margin-right: 40px;
-                
-                margin-top: 20px;
-                
+                margin-top: 20px; 
             }
-            
             .book {
                 margin-left: 40px;
                 font-size: 10px;
             }
-            
             #aboutus {
                 margin-left: 40px;   
             }
@@ -367,11 +366,14 @@
                 position: relative;
                 left: 50%;
                 transform: translate(-50%, 0);
-                margin-top: -30px;
+                margin-top: -32px;
                 font-size: 8px;
             }
             .foryou {
                 font-size: 12px; 
                 margin-top: 0px;
-            } 
+            }
+            .footer {
+                margin-left: -20px;
+            }             
         }

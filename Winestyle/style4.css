@@ -1,0 +1,106 @@
+body {
+                margin: 0;            
+            }
+            p,
+            h4,
+            .navigation {
+                font-family: 'Roboto', sans-serif;
+            }
+            .no-gutters {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .logo {
+                font-family: 'Roboto', sans-serif;
+                height: 54px;
+                margin-left: 52px;
+                color: rgb(105, 0, 0);
+                margin-top: -8px;
+            }
+            a:hover {
+                color: silver;
+            }
+            h1:hover {
+                color: rgb(105, 0, 0, .8);
+            }
+            .nav-link,
+            h4 {
+                color:  rgb(105, 0, 0);;
+            }
+            .set {
+                position: absolute;
+                top: 36%;
+                background-color: rgb(0, 0, 0, .1);
+                color: rgb(255, 255, 255, .9);
+                width: 100%;
+                font-size: 28px;
+            }
+            .footer {
+
+                margin-left: -60px;
+                margin-top: 40px;
+            }
+            li {
+                list-style-type: none;
+                display: inline;
+                margin-left: 20px;
+            } 
+                    
+        @media screen and (min-width: 1200px) {
+
+        }
+        @media (min-width: 992px) and (max-width: 1199.99px) {
+
+        }
+        @media (min-width: 768px) and (max-width: 991.99px) {
+            .set {
+                margin-top: -5px;
+                font-size: 26px;
+            }
+            .linkhead {
+                padding: 8px 8px;
+                font-size: 14px;
+                margin-left: -20px;
+            }
+        }
+        @media (min-width: 576px) and (max-width: 767.99px) {
+            .set {
+                margin-top: -5px;
+                font-size: 22px;
+            }
+            .linkhead {
+                padding: 8px 8px;
+                font-size: 12px;
+                margin-left: -25px;
+            }
+
+        }
+        @media (max-width: 575.99px) {
+            .logo {
+                top: 35px;
+            }
+            .set {
+                margin-top: -5px;
+                font-size: 14px;
+            }
+            .nav {
+                display: block;
+                font-size: 14px;
+                text-align: center;
+                margin-top: 15px;
+                margin-left: 30px;
+            }
+            .linkhead {
+                margin-top: -35px;
+                padding: 8px 8px;
+                font-size: 12px;
+                margin-left: -25px;
+            }
+            .badges {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            .footer {
+                margin-left: -20px;
+            }
+        }

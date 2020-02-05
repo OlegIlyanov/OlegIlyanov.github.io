@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Document</title>
     <style>
-        @media (min-width: 1200px) {
             body {
                 margin: 0;            
             }
@@ -16,141 +15,680 @@
                 margin-right: 0;
                 margin-left: 0;
             }
-            .navigation {
-                height: 40px;
-                background: black;
-                font-size: 22px;
+            .logo {
                 font-family: 'Roboto', sans-serif;
-                margin-top: -10px;
+                height: 54px;
+                margin-left: 52px;
+                color: rgb(105, 0, 0);
+                margin-top: -8px;
             }
-            .authorization {
-                
-            }
-            .contentone {
-                margin-top: 50px;
-                margin-right: 150px;
-                font-family: 'Roboto', sans-serif; 
+            p, .navigation {
+                font-family: 'Roboto', sans-serif;
             }
             a:hover {
-            color: silver;
+                color: silver;
             }
-            .pictureone {
+            h1:hover {
+                color: rgb(105, 0, 0, .8);
+            }
+            .nav-link {
+                color:  rgb(105, 0, 0);;
+            }
+            main {
+                margin-top: 40px; 
+            }
+            li {
+                list-style-type: none;
+                display: inline;
+                margin-left: 20px;
+            }
+            ul {
+                margin-left: ;
+            }
+            .footer {
+                margin-left: -60px;
+                margin-top: 40px;
+            } 
+        @media screen and (min-width: 1200px) {
+            .contentone, .contentthree {
+                position: absolute;
+                right: 40%;
+                line-height: 1.1em;
+                top: 20%;
+                width: 50%;
+            }
+            .contenttwo, .contentfor {
+                line-height: 1.1em;
+                width: 50%;
+                position: absolute;
+                top: 20%;
+                left: 40%;
                 
+            }
+            .pictureone {   
                 margin-left: 100px;
             }
             .picturetwo {
                 margin-right: 100px;
             }
             .picturethree {
-                margin-left: 100px;
+                margin-left: 150px;
             }
             .picturefor {
                 margin-right: 100px;
             }
-            #one { 
-                
+            .pictureone:before {
+                position: absolute;
+                display: block;
+                width: 5%;
+                height: 100%;
+                content:"Заведите профиль";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+                left: -70px;
+            }
+            .picturetwo:before {
+                position: absolute;
+                display: block;
+                width: 5%;
+                height: 100%;
+                content:"Оцените комплект";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+                right: 10px;
+            }
+            .picturethree:before {
+                position: absolute;
+                display: block;
+                width: 10%;
+                height: 100%;
+                content:"Персональные отправления";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+                left: -70px;
+            }
+            .picturefor:before {
+                position: absolute;
+                display: block;
+                width: 5%;
+                height: 100%;
+                content:"Оценивайте";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+                right: 10px;
+            }
+            #one {
                 margin-top: -100px;
                 margin-left: 200px;
                 font-size: 300px;
-                font-family: 'Roboto', sans-serif;
+                text-align: right;   
             }
             #two {
                 margin-top: -100px;
                 font-size: 300px;
-                font-family: 'Roboto', sans-serif;
+                text-align: left; 
             }
             #three {
-                margin-left: 150px;
+                margin-left: 200px;
                 margin-top: -100px;
                 font-size: 300px;
-                font-family: 'Roboto', sans-serif;
+                text-align: right; 
             }
             #for {
                 margin-top: -100px;
                 font-size: 300px;
-                font-family: 'Roboto', sans-serif;
+                text-align: left; 
             }
             .howwork {
                 position: absolute;
-                top: 25px;
-                background: rgba(0, 0, 0, .3);
+                top: 38%;
                 color: #f1f1f1;
                 width: 100%;
-                height: 50%;
-                font-family: 'Roboto', sans-serif;
                 font-size: 30px;
-                padding-top: 280px; 
             }
-            .keybook {
+            .book {
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translate(-50%, 0);
+            }  
+            .book2 {
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, 0);
+            } 
+        }
+        @media (min-width: 992px) and (max-width: 1199.99px) { 
+            .contentone, .contentthree {
+                position: absolute;
+                right: 40%;
+                line-height: 1.1em;
+                top: 10%;
+                width: 50%;
+            }
+            .contenttwo, .contentfor {
+                line-height: 1.1em;
+                width: 50%;
+                position: absolute;
+                top: 10%;
+                left: 40%;
                 
+            }
+            .pictureone {   
+                margin-left: 50px;
+            }
+            .picturetwo {
+                margin-right: 50px;
+            }
+            .picturethree {
+                margin-left: 50px;
+            }
+            .picturefor {
+                margin-right: 50px;
+            }
+            .pictureone:before {
+                position: absolute;
+                display: block;
+                width: 5%;
+                height: 100%;
+                content:"Заведите профиль";
                 font-family: 'Roboto', sans-serif;
-                margin-left: 44%;
-                font-size: 16px;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+                left: -70px;
+            }
+            .picturetwo:before {
+                position: absolute;
+                display: block;
+                width: 5%;
+                height: 100%;
+                content:"Оцените комплект";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+                right: 20px;
+            }
+            .picturethree:before {
+                position: absolute;
+                display: block;
+                width: 10%;
+                height: 100%;
+                content:"Персональные отправления";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+                left: -70px;
+            }
+            .picturefor:before {
+                position: absolute;
+                display: block;
+                width: 5%;
+                height: 100%;
+                content:"Оценивайте";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+                right: 20px;
+            }
+            #one {
+                margin-top: -100px;
+                margin-left: 100px;
+                font-size: 300px;
+                text-align: right;  
+            }
+            #two {
+                margin-top: -100px;
+                font-size: 300px;
+                text-align: left;
+            }
+            #three {
+                margin-left: 100px;
+                margin-top: -100px;
+                font-size: 300px;
+                text-align: right; 
+            }
+            #for {
+                text-align: left;
+                margin-top: -100px;
+                font-size: 300px;
+            }
+            .howwork {
+                position: absolute;
+                top: 38%;
+                color: #f1f1f1;
+                width: 100%;
+                font-size: 30px;
+            }
+            .book {
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translate(-50%, 0);
+            }  
+            .book2 {
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, 0);
+            }  
+        }
+        @media (min-width: 768px) and (max-width: 991.99px) {
+            .contentone, .contentthree {
+                position: absolute;
+                right: 40%;
+                line-height: 1em;
+                top: 10%;
+                width: 50%;
+            }
+            .contenttwo, .contentfor {
+                position: absolute;
+                line-height: 1em;
+                width: 80%;
+                top: 10%;
+                right: 10%;
+
+            }
+            .pictureone {   
+                margin-left: -10px;
+            }
+            .picturetwo {
+                margin-right: 10px;
+            }
+            .picturethree {
+                margin-left: 10px;
+            }
+            .picturefor {
+                margin-right: 10px;
+            }
+            .pictureone:before {
+                position: absolute;
+                display: block;
+                width: 5%;
+                height: 100%;
+                content:"Заведите профиль";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+                left: -70px;
+            }
+            .picturetwo:before {
+                position: absolute;
+                display: block;
+                width: 5%;
+                height: 100%;
+                content:"Оцените комплект";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+                right: 20px;
+            }
+            .picturethree:before {
+                position: absolute;
+                display: block;
+                width: 10%;
+                height: 100%;
+                content:"Персональные отправления";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+                left: -70px;
+            }
+            .picturefor:before {
+                position: absolute;
+                display: block;
+                width: 5%;
+                height: 100%;
+                content:"Оценивайте";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+                right: 20px;
+            }
+            #one {
+                text-align: right;
+                margin-left: 85px;
+                font-size: 200px;  
+            }
+            #two {
+                text-align: left;
+                font-size: 200px;
+                
+            }
+            #three {
+                text-align: right;
+                margin-left: 10px;
+                font-size: 200px;
+            }
+            #for {
+                text-align: left;
+                font-size: 200px;
+            }
+            .howwork {
+                position: absolute;
+                top: 34%;
+                color: #f1f1f1;
+                width: 100%;
+                font-size: 26px;
+            }
+            .book {
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translate(-50%, 0);
+                font-size: 12px;
+            }  
+            .book2 {
+                position: absolute;
+                top: 38%;
+                left: 50%;
+                transform: translate(-50%, 0);
+                font-size: 12px;
             }
             .linkhead {
-                color: white;
+                padding: 8px 8px;
+                font-size: 14px;
+                margin-left: -20px;
             }
-        
         }
-        @media (min-width: 992px) { 
-
+        @media (min-width: 576px) and (max-width: 767.99px) {
+            .contentone, .contentthree {
+                position: absolute;
+                left: 5%;
+                line-height: 0.9em;
+                top: 30%;
+                width: 95%;
+            }
+            .contenttwo, .contentfor {
+                position: absolute;
+                line-height: 0.9em;
+                width: 95%;
+                top: 30%;
+                right: 5%;
+            }
+            .pictureone {   
+                margin-left: -152px;
+                margin-bottom: 20px;
+            }
+            .picturetwo {
+                margin-right: -152px;
+                margin-bottom: 20px;
+            }
+            .picturethree {
+                margin-left: -152px;
+                margin-bottom: 20px;
+            }
+            .picturefor {
+                margin-right: -152px;
+                margin-bottom: 20px;
+            }
+            .pictureone:before {
+                position: absolute;
+                display: block;
+                width: 5%;
+                height: 100%;
+                content:"Заведите профиль";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+                left: 415px;
+                top: 5%;
+            }
+            .picturetwo:before {
+                position: absolute;
+                display: block;
+                width: 5%;
+                height: 100%;
+                content:"Оцените комплект";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+                right: 505px;
+                top: 5%;
+            }
+            .picturethree:before {
+                position: absolute;
+                display: block;
+                width: 10%;
+                height: 100%;
+                content:"Доставка";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+                left: 415px;
+                top: 15%;
+            }
+            .picturefor:before {
+                position: absolute;
+                display: block;
+                width: 5%;
+                height: 100%;
+                content:"Оценивайте";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+                right: 530px;
+                top: 15%;
+            }
+            #one,
+            #two,
+            #three,
+            #for {
+                display: none; 
+            }
+            .howwork {
+                position: absolute;
+                top: 34%;
+                color: #f1f1f1;
+                width: 100%;
+                font-size: 22px;
+            }
+            .book {
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translate(-50%, 0);
+                font-size: 10px;
+            }  
+            .book2 {
+                position: absolute;
+                top: 34%;
+                left: 50%;
+                transform: translate(-50%, 0);
+                font-size: 10px;
+            }
+            .linkhead {
+                padding: 8px 8px;
+                font-size: 12px;
+                margin-left: -25px;
+            }
         }
-        @media (min-width: 768px) { 
+        @media (max-width: 575.99px) {
+            .logo {
+                top: 35px;
+            }
+            .nav {
+                display: block;
+                font-size: 14px;
+                text-align: center;
+                margin-top: 15px;
+            }
+            .linkhead {
+                margin-top: -35px;
+                padding: 8px 8px;
+                font-size: 12px;
+                margin-left: -25px;
+            }
+            .contentone  {
+                position: relative;
+                line-height: 1.1em;
+                right: 60%;
+                width: 95%;
+            }
+            .contenttwo {
+                position: relative;
+                line-height: 1.1em;
+                width: 95%;
+                left: 60%;
+                top: 30%;
+            }
+            .contentthree {
+                position: relative;
+                line-height: 1.1em;
+                right: 60%;
+                top: 60%;
+                width: 95%;
+            }
+            .contentfor {
+                position: relative;
+                line-height: 1.1em;
+                width: 95%;
+                left: 60%;
+                top: 90%;
+            }
+            .pictureone,
+            .picturetwo,
+            .picturethree,
+            .picturefor {
+                display: none;
+            }
+            .contentone:before {
 
-        }
-        @media (min-width: 576px) {  
+                display: block;
+                margin-bottom: 10px; 
+                width: 5%;
+                height: 100%;
+                content:"Заведите профиль";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
 
+
+            }
+            .contenttwo:before {
+
+                display: block;
+                width: 5%;
+                height: 100%;
+                content:"Оцените комплект";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+
+            }
+            .contentthree:before {
+                display: block;
+                width: 10%;
+                height: 100%;
+                content:"Доставка";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+            }
+            .contentfor:before {
+                display: block;
+                width: 5%;
+                height: 100%;
+                content:"Оценивайте";
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1em;
+            }
+            #one,
+            #two,
+            #three,
+            #for {
+                display: none;
+            }
+            .howwork {
+                position: absolute;
+                top: 26%;
+                color: #f1f1f1;
+                width: 100%;
+                font-size: 20px;
+            }
+            .book {
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translate(-50%, 0);
+                font-size: 10px;
+            }  
+            .book2 {
+                position: absolute;
+                top: 14%;
+                left: 50%;
+                transform: translate(-50%, 0);
+                font-size: 10px;
+            }
+            .foot {
+                margin-top: 160px;
+            }
         }
     </style>
 </head>
 <body>
+<header>
     <div class="container-fluid px-0">
         <div class="row no-gutters">
-            <div class="col">
-                <ul class="nav navigation justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active linkhead" href="#">VK</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link linkhead" href="#">I</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link linkhead" href="#">F</a>
-                    </li>
-                        <li class="nav-item">
-                    <a class="nav-link authorization linkhead" href="#">Вход</a>
-                    </li>
-                </ul>
+            <div class="col logo">
+                <a class="nav-link linkhead" href="index.html" title="Главная станица"><h1>WINE box</h1></a>   
             </div>
-        </div> 
-    <div class="container-fluid px-0">      
+        </div>          
         <div class="row picturehead no-gutters">
-            <img src="https://d24a8427-3495-43ed-bbd6-1696aef19c18.ws-eu01.gitpod.io/mini-browser/workspace/gitpod/graduate/images/page2imghead.jpg" class="d-block w-100" alt="Изображения вина">  
-            <div class="howwork">
-                <p class="text-center text-uppercase jase">Как это работает</p>
-                <button type="button" class="btn btn-outline-danger btn-lg text-uppercase keybook">заказать сейчас</button>   
-            </div>  
-        </div>
-    </div>
-    <div class="container-fluid px-0">
+            <div class="col align-self-center">
+                <img src="https://d24a8427-3495-43ed-bbd6-1696aef19c18.ws-eu01.gitpod.io/mini-browser/workspace/gitpod/graduate/images/page2imghead2.jpg" class="d-block w-100" alt="Изображения вина">     
+                <p class="text-center text-uppercase jase howwork">Как это работает
+                <button type="button" class="btn btn-outline-danger btn-lg text-uppercase book">заказать сейчас</button>
+                </p> 
+            </div>
+        </div>       
         <div class="row no-gutters">
             <div class="col">                                            
-                <ul class="nav justify-content-end shadow-sm p-3 mb-5 bg-white rounded">
+                <ul class="nav justify-content-end navigation">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Active</a>
+                        <a class="nav-link active linkhead" href="#" title="Как это работает">Как это работает</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">Link</a>
+                        <a class="nav-link linkhead" href="#" title="Подарочные наборы">Подарочные наборы</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link linkhead" href="#" title="Подарочные наборы">Обратная связь</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Disabled</a>
+                        <a class="nav-link linkhead" href="#" title="Подарочные наборы">Вход</a>
                     </li>
                 </ul>
             </div>                                
         </div>
+    </div>
+</header> 
+<main>
+    <div class="container-fluid px-0">       
         <div class="row no-gutters">
             <div class="col">
                 <p id="one">1
@@ -159,12 +697,17 @@
             <div class="col pictureone">
                 <img src="https://d24a8427-3495-43ed-bbd6-1696aef19c18.ws-eu01.gitpod.io/mini-browser/workspace/gitpod/graduate/images/page2img2.jpg" width="406px" height="250px" >
             </div>
+
             <div class="col">
-                <p class="text-left contentone">Получите персональный профель вина, в котором подробно описаны стили и вкусы, которые вы предпочитаете.</p>
+                <p class="text-left contentone">Получите персональный профиль вина, в котором подробно описаны стили и вкусы, которые вы предпочитаете.
+                </p>
             </div>
         </div>
+
         <div class="row no-gutters">
             <div class="col">
+                <p class="text-right contenttwo">Попробуйте три разные мини-бутылки вина и расскажите, какие из них вам большего всего нравяться.
+                </p>
             </div>
             <div class="col picturetwo">
                 <img src="https://d24a8427-3495-43ed-bbd6-1696aef19c18.ws-eu01.gitpod.io/mini-browser/workspace/gitpod/graduate/images/page2img2.jpg" width="406px" height="250px" >
@@ -174,19 +717,25 @@
                 </p>
             </div>
         </div>
+
         <div class="row no-gutters">
-            <div class="col picturethree">
+            <div class="col">
                 <p id="three">3
                 </p>
             </div>
-            <div class="col">
+            <div class="col picturethree">
                 <img src="https://d24a8427-3495-43ed-bbd6-1696aef19c18.ws-eu01.gitpod.io/mini-browser/workspace/gitpod/graduate/images/page2img2.jpg" width="406px" height="250px" >
             </div>
-            <div class="col"> 
+            <div class="col">
+                <p class="text-left contentthree">Оцените вино, которое вы получите, чтобы улучшить свой выбор в течении времени.
+                </p> 
             </div>
         </div>
+
         <div class="row no-gutters">
             <div class="col"> 
+                <p class="text-right contentfor">Получите полноразмерные бутылки, которые соответствуют вашему вкусу, доставленные к вашей двери.
+                </p>
             </div>
             <div class="col picturefor">
                 <img src="https://d24a8427-3495-43ed-bbd6-1696aef19c18.ws-eu01.gitpod.io/mini-browser/workspace/gitpod/graduate/images/page2img2.jpg" width="406px" height="250px" >
@@ -196,28 +745,70 @@
                 </p>
             </div>
         </div>
-        <div class="row no-gutters">
-            
-                <img src="https://d24a8427-3495-43ed-bbd6-1696aef19c18.ws-eu01.gitpod.io/mini-browser/workspace/gitpod/graduate/images/page2imgfooter.jpg" class="d-block w-100" alt="Изображения вина" ></p>
-         
+
+        <div class="row no-gutters foot">   
             <div class="col">
+                <img src="https://d24a8427-3495-43ed-bbd6-1696aef19c18.ws-eu01.gitpod.io/mini-browser/workspace/gitpod/graduate/images/page2imgfooter.jpg" class="d-block w-100" alt="Изображения вина" >
+                <button type="button" class="btn btn-danger btn-lg text-uppercase book2">заказать сейчас</button>
             </div>
         </div>   
     </div>
-    <footer class="footer">
-  <div class="container-fluid">
-    <div class="row main-hero">
-      <div class="col-lg-6 hero">HERO</div>
-      <div class="col-lg-3 action">ACTION</div>
-      <div class="col-lg-3 visible-lg-block ad">AD</div>
+</main>    
+<footer class="footer">
+    <div class="container-fluid px-0">
+        <div class="row no-gutters">
+            <div class="col text-center">
+                <ul class="no-gutters">
+                    <li>
+                        <a class="social-button" title="VK" href="https://vk.com/miaarber" target="_blank"><span class="visually-hidden"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 26.14 14.91">
+                                <path d="M26 13.47l-.09-.17a13.55 13.55 0 0 0-2.6-3q-.87-.83-1.1-1.12A1 1 0 0 1 22 8a10.27 
+                                        10.27 0 0 1 1.22-1.78l.88-1.16q2.35-3.13 2-4L26 .94a.8.8 0 0 0-.4-.22 2.14 2.14 0 0 0-.87 
+                                        0h-3.92a.51.51 0 0 0-.27 0h-.3a.6.6 0 0 0-.15.14.93.93 0 0 0-.14.24 22.22 22.22 0 0 1-1.46 
+                                        3.06q-.5.84-.93 1.46a7 7 0 0 1-.71.91 4.94 4.94 0 0 1-.52.47q-.23.18-.35.15l-.23-.05a.9.9 
+                                        0 0 1-.31-.33 1.49 1.49 0 0 1-.16-.53V1.6a3.14 3.14 0 0 0 0-.62 2.12 2.12 0 0 0-.14-.44.73.73 
+                                        0 0 0-.28-.33 1.57 1.57 0 0 0-.46-.18A9 9 0 0 0 12.57 0a8.93 8.93 0 0 0-3.25.33 1.83 1.83 0 0 
+                                        0-.52.41q-.25.3-.07.33a1.67 1.67 0 0 1 1.16.59l.08.16a2.6 2.6 0 0 1 .19.63 6.32 6.32 0 0 1 .12 
+                                        1 10.59 10.59 0 0 1 0 1.7q-.07.71-.13 1.1a2.21 2.21 0 0 1-.18.64 
+                                        2.69 2.69 0 0 1-.16.3l-.07.07a1 1 0 0 1-.37.07.86.86 0 0 1-.46-.19 
+                                        3.27 3.27 0 0 1-.56-.52 7 7 0 0 1-.66-.93q-.37-.6-.76-1.42l-.22-.39q-.2-.38-.56-1.11t-.62-1.43A.9.9 
+                                        0 0 0 5.2.9h-.07a.93.93 0 0 0-.22-.16A1.44 1.44 0 0 0 4.6.65L.87.68A1 1 0 0 0 .1.94L0 1a.44.44 0 0 0 
+                                        0 .22 1.08 1.08 0 0 0 .08.37Q.9 3.53 1.86 5.31t1.66 2.87Q4.23 9.27 5 10.24t1 1.24l.37.41.34.33a8.06 
+                                        8.06 0 0 0 1 .78 16.34 16.34 0 0 0 1.4.9 7.6 7.6 0 0 0 1.79.72 6.19 6.19 0 0 0 2 .22h1.57a1.08 1.08 
+                                        0 0 0 .72-.3l.05-.07a.9.9 0 0 0 .1-.25 1.38 1.38 0 0 0 0-.37 4.48 4.48 0 0 1 .09-1.05 2.77 2.77 0 0 
+                                        1 .23-.71 1.74 1.74 0 0 1 .29-.4 1.19 1.19 0 0 1 .23-.2h.11a.86.86 0 0 1 .77.21 4.52 4.52 0 0 1 
+                                        .83.79q.39.47.93 1.05a6.41 6.41 0 0 0 1 .87l.27.16a3.31 3.31 0 0 0 .71.3 1.53 1.53 0 0 0 
+                                        .76.07l3.48-.05a1.58 1.58 0 0 0 .8-.17.68.68 0 0 0 .34-.37 1.06 1.06 0 0 0 0-.46 1.71 1.71 0 
+                                        0 0-.1-.36z" fill="#000">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-button" title="Facebook" href="https://www.facebook.com/miaarberr" target="_blank"><span class="visually-hidden"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 10.15 21.74">
+                                <path d="M3.34 1.12A4.77 4.77 0 0 1 6.53 0h3.61v3.81H7.81a1.07 1.07 0 0 0-1.09.83v2.55h3.42c-.08 1.23-.24 
+                                        2.45-.41 3.67h-3v10.87H2.21V10.86H0V7.21h2.19V3.66a3.83 3.83 0 0 1 1.15-2.54z" fill="#000">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-button" title="Instagram" href="https://www.instagram.com/miaarber/" target="_blank"><span class="visually-hidden"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" viewBox="0 0 20 20">
+                                <path d="M18 0H2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-8 
+                                    6a4 4 0 1 1-4 4 4 4 0 0 1 4-4zM2.5 18a.47.47 0 0 1-.5-.5V9h2.1a3.4 3.4 0 0 0-.1 1 6 6 
+                                    0 1 0 12 0 3.4 3.4 0 0 0-.1-1H18v8.5a.47.47 0 0 1-.5.5zM18 4.5a.47.47 0 0 1-.5.5h-2a.47.47 
+                                    0 0 1-.5-.5v-2a.47.47 0 0 1 .5-.5h2a.47.47 0 0 1 .5.5z" fill="#000">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>   
+            </div>
+        </div>
     </div>
-  </div>
 </footer>
-
-
-
-
-
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
